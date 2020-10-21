@@ -49,7 +49,7 @@
       </nav>
       
       <div class="text-left tm-hero-text-container">
-        <div class="container">
+        <div class="container sec01-margin">
           <div class="row">
             <div class="col-sm-6 dis">
               <div class="text">
@@ -61,7 +61,7 @@
                 <h1 class="en">A-cial Cosmetic Skincare</h1>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 section01-img">
               <img src="img/section01-bg.jpg" alt="">
             </div>
           </div>
@@ -280,6 +280,33 @@
             $('.tm-navbar').removeClass("scroll");
           }
         });
+
+
+        
+
+        // $(window).innerWidth(function(e){          
+        //   if($(document).innerWidth() < 768) {
+        //     $('.text').addClass("text-center");
+        //   } else {
+        //     $('.text').removeClass("text-center");
+        //   }
+        // });
+
+//         $(document).ready(function($) {
+//        var $window = $(window), $element = $('.dis');
+
+//        function resize() {
+//          if ($window.width() < 768) {
+//            return $element.addClass('text-center');
+//          }    
+//          $element.removeClass('text-center');
+//        }
+
+//        $window.resize(resize).trigger('resize');
+// });
+
+
+
         
         // Close mobile menu after click 
         $('#tmNav a').on('click', function(){
