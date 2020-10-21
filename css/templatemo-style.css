@@ -677,6 +677,9 @@ p {
     justify-content: center;
     align-items: center;
   }
+  .section01-img{
+    overflow: hidden;
+  }
   /* .navbar-collapse .nav-link:hover{
     background-color: #3e4f14;
   } */
