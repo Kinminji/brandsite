@@ -434,12 +434,12 @@ a:focus {
 /***** Honey *****/
 /*---------------*/
 
-figure.effect-honey {
+/* figure.effect-honey {
   background: #4a3753;
   max-width: 220px;
-}
+} */
 
-figure.effect-honey img {
+/* figure.effect-honey img {
   opacity: 0.9;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
@@ -493,7 +493,7 @@ figure.effect-honey:hover h2 i {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-}
+} */
 
 /* Contact */
 
@@ -735,4 +735,8 @@ p {
   border-radius: 50px;
   color: #fff;
 }
-
+.overflow img:hover{
+  transform:scale(1.1);
+  overflow: hidden;
+  transition: 1s;
+}
