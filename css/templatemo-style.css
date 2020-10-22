@@ -654,6 +654,26 @@ p {
     display: flex;
     flex-direction: column-reverse !important;
   }
+  .footer{
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer-img{
+    margin-top: 2%;
+  }
+  .footer-img img{
+    width: 100%;
+  }
+  .footer-txt{
+    padding-top: 5%;
+    width: 100%;
+    text-align: center;
+  }
+  .footer-end{
+    width: 100%;
+    text-align: center;
+
+  }
 }
 
 @media (max-width: 767px) {
@@ -766,6 +786,44 @@ p {
   overflow: hidden;
   transition: 0.5s;
 }
+footer{
+  background-color: #74854a;
+}
+.footer{
+  display: flex;
+  width: 65%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.footer-img{
+  width: 20%;
+}
+.footer-img img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-txt{
+  width: 40%;
+  padding: 1% 0;
+  font-family: 'GyeonggiBatang';
+  color: #fff;
+  font-size: 15px;
+  /* padding-left: 7%; */
+}
+.footer-txt p:nth-child(2){
+  margin: 1% 0;
+}
+.footer-end{
+  width: 40%;
+  font-family: 'GyeonggiBatang';
+  text-align: right;
+  color: #fff;
+  font-size: 15px;
+  /* padding-left: 15%; */
+}
 
 @media (max-width: 767px){
   .ko{
@@ -800,5 +858,25 @@ p {
   .main-text2{
     font-size: 18px;
     letter-spacing: 0px;
+  }
+  .footer{
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer-img{
+    margin-top: 2%;
+  }
+  .footer-img img{
+    width: 80%;
+  }
+  .footer-txt{
+    padding-top: 5%;
+    width: 100%;
+    text-align: center;
+  }
+  .footer-end{
+    width: 100%;
+    text-align: center;
+
   }
 }
