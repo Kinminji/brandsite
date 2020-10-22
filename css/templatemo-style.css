@@ -766,3 +766,39 @@ p {
   overflow: hidden;
   transition: 0.5s;
 }
+
+@media (max-width: 767px){
+  .ko{
+    font-size: 25px;
+    letter-spacing: -1px;
+  }
+  .en{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  .section02-txt h1{
+    font-size: 35px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    margin-bottom: 3%;
+  }
+  .section02-txt p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    margin-bottom: 3%;
+  }
+  .tm-section-title{
+    font-size: 35px;
+    letter-spacing: 0px; 
+  }
+  .main-text1{
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin: 0;
+  }
+  .main-text2{
+    font-size: 18px;
+    letter-spacing: 0px;
+  }
+}
