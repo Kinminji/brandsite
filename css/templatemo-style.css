@@ -807,23 +807,25 @@ footer{
   justify-content: center;
 }
 .footer-txt{
-  width: 40%;
+  width: 80%;
   padding: 1% 0;
   font-family: 'GyeonggiBatang';
   color: #fff;
   font-size: 15px;
   /* padding-left: 7%; */
 }
-.footer-txt p:nth-child(2){
-  margin: 1% 0;
+.company p:nth-child(2){
+  margin-left: 5%;
 }
 .footer-end{
-  width: 40%;
-  font-family: 'GyeonggiBatang';
-  text-align: right;
-  color: #fff;
-  font-size: 15px;
-  /* padding-left: 15%; */
+
+}
+.company{
+  display: flex;
+  padding-top: -5%;
+}
+.number{
+  display: flex;
 }
 
 @media (max-width: 767px){
