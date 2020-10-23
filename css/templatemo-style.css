@@ -784,7 +784,7 @@ p {
 .overflow img:hover{
   transform:scale(1.1);
   overflow: hidden;
-  transition: 0.5s;
+  transition: 1s;
 }
 footer{
   background-color: #74854a;
@@ -796,6 +796,8 @@ footer{
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 .footer-img{
   width: 20%;
@@ -808,24 +810,14 @@ footer{
 }
 .footer-txt{
   width: 80%;
-  padding: 1% 0;
+
   font-family: 'GyeonggiBatang';
   color: #fff;
   font-size: 15px;
   /* padding-left: 7%; */
 }
-.company p:nth-child(2){
-  margin-left: 5%;
-}
-.footer-end{
-
-}
-.company{
-  display: flex;
-  padding-top: -5%;
-}
-.number{
-  display: flex;
+.footer-txt span{
+  padding-left: 3%;
 }
 
 @media (max-width: 767px){
