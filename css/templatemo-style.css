@@ -880,4 +880,38 @@ footer{
   .tm-btn-primary {
     padding: 10px 25px;
   }
+  #submenu{
+    right: 0;
+  }
+}
+
+li{
+  list-style: none;
+}
+a{
+  color: inherit;
+  text-decoration: none; 
+}
+.drop-down{
+  display: block;
+}
+#submenu{
+  position: absolute;
+  background: #74854a;
+  padding: 20px 10px 20px;
+  opacity: 0;
+  visibility: hidden;
+  /* margin: 16px; */
+}
+/* #submenu>li{
+  padding: 10px 8px;
+} */
+#submenu>li>a{
+  color: #fff;
+  padding-top: 15px;
+}
+.drop-down:hover #submenu{
+  opacity: 1;
+  visibility: visible;
+  transition: 0.8s;
 }
