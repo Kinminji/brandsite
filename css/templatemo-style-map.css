@@ -519,7 +519,12 @@ footer{
   #submenu{
     right: 0;
   }
+  .section02{
+      padding-top: 25%;
+  }
 }
+
+
 li{
   list-style: none;
 }
