@@ -230,15 +230,16 @@ a:focus {
     color: #333;
 }
 .back1{
-    background: #b0c188;
+    background: #e8e8e8;
     color: #333;
 }
 .cursor{
     cursor: pointer;
 }
-/* .cursor tr:hover{
-    background: #999;
-} */
+.cursor tr:hover{
+    background: #74854a;
+    color: #FFF;
+}
 
 
 @media (max-height: 480px) {
