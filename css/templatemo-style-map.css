@@ -193,6 +193,10 @@ a:focus {
     padding-top: 5%;
     padding-bottom: 8%;
 }
+.map{
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
 
 #container {width: 960px; margin: 0 auto;}
 #container #input-form {text-align: center;}
@@ -201,8 +205,10 @@ a:focus {
 
 #user-table {border-collapse: collapse;}
 #user-table > thead > tr { background-color: #47522d; color:#fff;}
-#user-table > thead > tr > th { padding: 8px; width: 150px; }
-#user-table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+#user-table > thead > tr > th { padding: 5px; width: 130px; 
+    font-family: 'GyeonggiBatang';}
+#user-table > tbody > tr > td { border-bottom: 1px solid gray; padding:5px; 
+    font-family: 'S-CoreDream-4Regular'; font-size: 18px;}
 .back{
     background: #fff;
     color: #333;
@@ -210,6 +216,9 @@ a:focus {
 .back1{
     background: #b0c188;
     color: #333;
+}
+.cursor{
+    cursor: pointer;
 }
 
 
