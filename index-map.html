@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/templatemo-style-brandstory.css" />
+    <link rel="stylesheet" href="css/templatemo-style-map.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
     <!--
 	The Town
 	https://templatemo.com/tm-525-the-town
-	-->
+  -->
   </head>
   <body>    
     <!-- Hero section -->
@@ -30,21 +31,21 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars navbar-toggler-icon"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse nav-menu" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link tm-nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link tm-nav-link" href="index-brandstory.html">Brand Story</a>
-            </li>
-            <li class="nav-item drop-down">
-              <a class="nav-link tm-nav-link" href="index-shop.html">Skincare <i class="fas fa-angle-down"></i> </a>
-              <ul id="submenu">
-                <li><a href="index-shop.html">Leaf line</a></li>
-                <li><a href="index-avocado.html">Citron line</a></li>
-              </ul>
-          </li>      
+                  <a class="nav-link tm-nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link tm-nav-link" href="index-brandstory.html">Brand Story</a>
+              </li>
+              <li class="nav-item drop-down">
+                  <a class="nav-link tm-nav-link" href="index-shop.html">Skincare <i class="fas fa-angle-down"></i> </a>
+                  <ul id="submenu">
+                    <li><a href="index-shop.html">Leaf line</a></li>
+                    <li><a href="index-avocado.html">Citron line</a></li>
+                  </ul>
+              </li>     
               <li class="nav-item">
                 <a class="nav-link tm-nav-link" href="index-map.html">Shop</a>
             </li>                
@@ -55,82 +56,63 @@
     </section>
 
     <section>
-      <div class="container section00">
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <img src="img/logo-img.png" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
+        <div class="container section01">
+            <div class="row">
+                <div class="col-sm-6">
 
-    <section>
-      <div class="container section02">
-          <div class="row">
-            <div class="col-sm-6 img1">
-              <img src="img/brandstory-1.jpg" alt="" width="90%">
-            </div>
-            <div class="col-sm-6 text-center dis">
-              <div class="txt" data-aos="fade-in"data-aos-duration="3000">
-                <p>숲에 들어가 누워서 <br>
-                  풀냄새를 맡으며<br>
-                  여유를 찾아 마음이 안정해지는듯</p>
-                <p>피부가 편안한 스킨케어</p>
-              </div>
-            </div>
-          </div>
-      </div>
-    </section>
+                </div>
+                <div class="col-sm-6 store">
+                    <div id="container">
+                        <div id="input-form">
+                            지점 : <input type="text" id="keyword" />
+                            개수: <span class="count"></span>            
+                        </div>
+                
+                        <table id="user-table">
+                            <thead>
+                                <tr>
+                                    <th>번호</th>
+                                    <th>지점</th>
+                                    <th>주소</th>
+                                    <th>번호</th>
+                                </tr>
+                            </thead>
+                
+                            <tbody>
+                                <tr class="back1">
+                                    <td>1</td>
+                                    <td>김포점</td>
+                                    <td>경기도 김포시 사우중로 48</td>
+                                    <td>02-123-4567</td>
 
-    <section>
-      <div class="container section03">
-        <div class="row rul">
-          <div class="col-sm-6 text-center dis where">
-            <div class="txt" data-aos="fade-in"data-aos-duration="3000">
-              <p>바쁜 하루 속 <br>
-                여유로움을 느끼게 해주는</p>
-              <p>감성적인 향기</p>
-            </div>
-          </div>
-          <div class="col-sm-6 img2">
-            <img src="img/brandstory-2.jpg" alt="" width="90%">
-          </div>
-        </div>
-      </div>
-    </section>
+                                </tr>
+                                <tr class="back">
+                                    <td>2</td>
+                                    <td>신촌점</td>
+                                    <td>서울특별시 마포구 노고산동 서강로 144</td>
+                                    <td>02-123-4567</td>
 
-    <section>
-      <div class="container section04-padding">
-        <div class="row">
-          <div class="col-sm-12 backg">
-            <div class="section04-txt text-center">
-              <p>기분 좋은 아침을 시작으로<br>
-                편안하게 잠들때 까지,</p>
-                <p>바쁜 도시 생활 속 <br>
-                  자신만의 라이프 스타일을 만들어가는<br>
-                  당신을 위해,
-                  </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+                                </tr>
+                                <tr class="back1">
+                                    <td>3</td>
+                                    <td>종로점</td>
+                                    <td>서울특별시 종로구 종로3가</td>
+                                    <td>02-123-4567</td>
 
-    <section>
-      <div class="container section01">
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <div class="section01-padding">
-              <div class="flex">
-                <img src="img/logo-img.png" alt="" class="logo-img">
-                <img src="img/logo-black.png" alt="" class="logo-black">
-              </div>
-              <h1 class="ko">일상 속 내 피부의 쉬는시간</h1>
-              <h1 class="en">A-cial Cosmetic Skincare</h1>
+                                </tr>
+                                <tr class="back">
+                                    <td>4</td>
+                                    <td>일산점</td>
+                                    <td>경기도 고양시 장항동 정발산로 43-20</td>
+                                    <td>02-123-4567</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <footer>
@@ -329,6 +311,16 @@
         ]
         });
       });
+
+      $("#keyword").keyup(function() {
+                var k = $(this).val();
+                $("#user-table > tbody > tr").hide();
+                var temp = $("#user-table > tbody > tr > td:nth-child(5n+2):contains('" + k + "')");
+
+                $(temp).parent().show();
+                $('.count').text(temp.length);                
+            })
+
     </script>
 
 <script>
