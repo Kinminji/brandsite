@@ -186,13 +186,29 @@ a:focus {
   min-height: 375px; */
   position: absolute;
 }
-.section01{
-    padding-top: 5%;
+.section02{
+    padding-top: 10%;
+    padding-bottom: 2%;
 }
+.text h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #111;
+    font-family: 'GyeonggiBatang';
+    letter-spacing: 1px;
+}
+.text p{
+    font-family: 'S-CoreDream-4Regular';
+    font-size: 16px;
+}
+/* .section01{
+    padding-top: 5%;
+} */
 .store{
     padding-top: 5%;
     padding-bottom: 8%;
 }
+
 .map{
     padding-top: 5%;
     padding-bottom: 8%;
@@ -220,6 +236,9 @@ a:focus {
 .cursor{
     cursor: pointer;
 }
+/* .cursor tr:hover{
+    background: #999;
+} */
 
 
 @media (max-height: 480px) {
