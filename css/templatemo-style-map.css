@@ -221,7 +221,7 @@ a:focus {
     padding-bottom: 8%;
 }
 
-#container {width: 960px; margin: 0 auto;}
+#container {width: 700px; margin: 0 auto;}
 #container #input-form {text-align: center;}
 #user-table {margin: 0 auto; text-align: center;}
 #input-form {margin-top: 10px; margin-bottom: 10px;}
@@ -390,6 +390,9 @@ p {
 
   .navbar-collapse .nav-link {
     color: #fff;
+  }
+  #container{
+    width: 100%;
   }
 }
 
