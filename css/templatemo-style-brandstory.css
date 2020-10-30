@@ -1,12 +1,13 @@
 @font-face {
-  font-family: 'GyeonggiBatang';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+  font-family: 'Eoe_Zno_L';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_Zno_L.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'S-CoreDream-4Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+  font-family: 'MapoGoldenPier';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -86,7 +87,7 @@ a:focus {
   padding: 14px 35px;
   border-radius: 30px;
   font-size: 16px;
-  font-family: 'S-CoreDream-4Regular';
+  font-family: 'MapoGoldenPier';
 }
 
 .tm-btn-primary:hover,
@@ -170,7 +171,7 @@ a:focus {
 }
 #navbarSupportedContent ul li a{
   font-size: 20px;
-  font-family: 'GyeonggiBatang';
+  font-family: 'MapoGoldenPier';
   font-weight: bold;
 }
 #navbarSupportedContent ul li a:hover{
@@ -207,16 +208,18 @@ a:focus {
   margin-top: 35%;
 }
 .ko{
-  font-family: 'S-CoreDream-4Regular';
+  font-family: 'Eoe_Zno_L';
   font-size: 26px;
   letter-spacing: -2px;
   margin: 0;
+  color: #333;
 }
 .en{
-  font-family: 'GyeonggiBatang';
+  font-family: 'MapoGoldenPier';
   font-weight: bold;
   font-size: 26px;
   letter-spacing: -1px;
+  color: #333;
 }
 .section02{
   /* padding-top: 10%; */
@@ -229,14 +232,14 @@ a:focus {
   height: 500px;
 }
 .txt p:nth-child(1){
-  font-family: 'GyeonggiBatang';
+  font-family: 'MapoGoldenPier';
   font-size: 26px;
-  letter-spacing: -1px;
-  color: #000;
+  letter-spacing: -2px;
+  color: #333;
   line-height: 46px;
 }
 .txt p:last-child{
-  font-family: 'GyeonggiBatang';
+  font-family: 'MapoGoldenPier';
   font-weight: bold;
   font-size: 36px;
   letter-spacing: -1px;
@@ -260,9 +263,9 @@ a:focus {
 }
 .section04-txt p{
   color: #fff;
-  font-family: 'GyeonggiBatang';
+  font-family: 'MapoGoldenPier';
   font-size: 26px;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   line-height: 36px;
 }
 
@@ -561,7 +564,7 @@ footer{
 .footer-txt{
   width: 80%;
 
-  font-family: 'GyeonggiBatang';
+  font-family: 'Eoe_Zno_L';
   color: #fff;
   font-size: 15px;
   /* padding-left: 7%; */

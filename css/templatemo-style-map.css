@@ -1,14 +1,19 @@
 @font-face {
-  font-family: 'GyeonggiBatang';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+  font-family: 'MapoGoldenPier';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'S-CoreDream-4Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+  font-family: 'Eoe_Zno_L';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_Zno_L.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+.jejumyeongjo * { 
+ font-family: 'Jeju Myeongjo', serif;
 }
 
 
@@ -86,7 +91,7 @@ a:focus {
   padding: 14px 35px;
   border-radius: 30px;
   font-size: 16px;
-  font-family: 'S-CoreDream-4Regular';
+  font-family: 'MapoGoldenPier';
 }
 
 .tm-btn-primary:hover,
@@ -170,7 +175,7 @@ a:focus {
 }
 #navbarSupportedContent ul li a{
   font-size: 20px;
-  font-family: 'GyeonggiBatang';
+  font-family: 'MapoGoldenPier';
   font-weight: bold;
 }
 #navbarSupportedContent ul li a:hover{
@@ -193,13 +198,15 @@ a:focus {
 .text h1{
     font-size: 36px;
     font-weight: bold;
-    color: #111;
-    font-family: 'GyeonggiBatang';
+    color: #000;
+    font-family: 'MapoGoldenPier';
     letter-spacing: 1px;
 }
 .text p{
-    font-family: 'S-CoreDream-4Regular';
+  font-family: 'Eoe_Zno_L';
     font-size: 16px;
+    letter-spacing: -1px;
+    color: #333;
 }
 /* .section01{
     padding-top: 5%;
@@ -222,9 +229,9 @@ a:focus {
 #user-table {border-collapse: collapse;}
 #user-table > thead > tr { background-color: #47522d; color:#fff;}
 #user-table > thead > tr > th { padding: 5px; width: 130px; 
-    font-family: 'GyeonggiBatang';}
+  font-family: 'MapoGoldenPier';}
 #user-table > tbody > tr > td { border-bottom: 1px solid gray; padding:5px; 
-    font-family: 'S-CoreDream-4Regular'; font-size: 18px;}
+  font-family: 'Eoe_Zno_L'; font-size: 16px;}
 .back{
     background: #fff;
     color: #333;
@@ -435,7 +442,7 @@ footer{
 .footer-txt{
   width: 80%;
 
-  font-family: 'GyeonggiBatang';
+  font-family: 'Eoe_Zno_L';
   color: #fff;
   font-size: 15px;
   /* padding-left: 7%; */
