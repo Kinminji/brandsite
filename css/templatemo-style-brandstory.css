@@ -253,13 +253,16 @@ a:focus {
 }
 .backg{
   background: url('../img/brandstory-3.1.jpg');
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  height: 550px;
+  height: 550px; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+}
+.section04-txt{
+  padding: 12% 0;
 }
 .section04-txt p{
   color: #fff;
