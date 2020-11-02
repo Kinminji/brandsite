@@ -261,6 +261,9 @@ button{
   background-color: #3e4f14;
   transition: 1s;
 }
+.sec02-padding{
+  margin-top: 3%;
+}
 
 @media (max-height: 480px) {
   .tm-hero-text-container-inner {

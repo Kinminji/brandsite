@@ -214,6 +214,7 @@ a:focus {
 .store{
     padding-top: 5%;
     padding-bottom: 8%;
+    padding-left: 2%;
 }
 
 .map{
@@ -237,7 +238,7 @@ a:focus {
     color: #333;
 }
 .back1{
-    background: #e8e8e8;
+    background: #d1dbc3;
     color: #333;
 }
 .cursor{
