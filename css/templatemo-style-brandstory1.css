@@ -195,7 +195,7 @@ a:focus {
     margin-top: 2%;
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Eoe_Zno_L';
+    font-family: 'MapoGoldenPier';
     color: #000;
 }
 .sec01-img{
@@ -216,8 +216,8 @@ a:focus {
     letter-spacing: 1px;
 }
 .txt>p{
-    font-size: 16px;
-    font-family: 'Eoe_Zno_L';
+    font-size: 20px;
+    font-family: 'MapoGoldenPier';
     line-height: 30px;
     letter-spacing: -1px;
 }
@@ -226,8 +226,8 @@ p>span{
 }
 .txt2>p{
     color: #fff;
-    font-size: 16px;
-    font-family: 'Eoe_Zno_L';
+    font-size: 20px;
+    font-family: 'MapoGoldenPier';
     line-height: 30px;
     letter-spacing: -1px;
 }
@@ -241,7 +241,7 @@ p>span{
     padding: 5% 0;
 }
 .sec01-img{
-    background: url('../img/brand-bg.png');
+    background: url('../img/bg-bg.png');
     height: 600px;
     padding: 0 50%;
     background-position: center;
@@ -254,8 +254,8 @@ p>span{
     padding-bottom: 3%;
 }
 .sec02-txt>p{
-    font-family: 'Eoe_Zno_L';
-    font-size: 16px;
+    font-family: 'MapoGoldenPier';
+    font-size: 20px;
     line-height: 30px;
 }
 .sec02-img{
@@ -270,14 +270,35 @@ p>span{
 }
 .txt-txt>p{
     color: #fff;
-    font-family: 'Eoe_Zno_L';
-    font-size: 16px;
+    font-family: 'MapoGoldenPier';
+    font-size: 20px;
     letter-spacing: -1px;
-    line-height: 40px;
+    line-height: 30px;
 }
-.txt-txt>p>span{
-    font-family: 'Eoe_Zno_L';
+.section03{
+    background: url('../img/brandstory-3.1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5%;
 }
+.text{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.sec03-txt{
+    color: #fff;
+    font-family: 'MapoGoldenPier';
+    font-size: 20px;
+}
+.sec03-txt>p{
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
 @media (max-height: 480px) {
   .tm-hero-text-container-inner {
     margin-top: -40px;
