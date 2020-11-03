@@ -299,20 +299,118 @@ a:focus {
     font-family: 'Eoe_Zno_L';
     color: #000;
     margin: 0;
+    letter-spacing: -1px;
 }
 .sec02-txt p:nth-child(2){
-    color: #fff;
+    color: #333;
     font-size: 20px;
     font-family: 'MapoGoldenPier';
     margin: 0;
 }
 .sec02-txt p:last-child{
-    color: #fff;
+    color: #333;
     font-size: 16px;
     font-family: 'Eoe_Zno_L';
     margin: 0;
 }
+.section03{
+  padding-bottom: 5%;
+}
+.disp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lotion-txt{
+  display: flex;
+  width: 65%;
+  padding-top: 5%;
+  /* align-items: center;
+  justify-content: center; */
+}
+.txt01 h1{
+    color: #74854a;
+    font-family: 'Eoe_Zno_L';
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.txt01 p{
+  color: #777;
+  font-family: 'Eoe_Zno_L';
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+.bo{
+  margin: 0 2%;
+}
+.section04{
 
+  padding-bottom: 5%;
+}
+.section04-g{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.water-img{
+  position: relative;
+  top: 150px;
+}
+.section05{
+  padding-top: 5%;
+}
+.sec05-txt p{
+  font-family: 'Eoe_Zno_L';
+  font-size: 16px;
+  color: #777;
+  letter-spacing: -1px;
+}
+.section06{
+  margin-top: 3%;
+}
+.icon{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.icon-1{
+  margin: 0 3%;
+}
+.icon-1 p{
+  font-size: 26px;
+  color: #000;
+  font-family: 'Eoe_Zno_L';
+}
+.section07{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.sec07-txt{
+  font-family: 'Eoe_Zno_L';
+}
+.sec07-txt h1{
+  color: #74854a;
+  font-size: 26px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.sec07-txt p:nth-child(2){
+  color: #000;
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+.sec07-txt p:nth-child(3){
+  color: #777;
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+.sec07-txt p:last-child{
+  color: #000;
+  font-size: 16px;
+  letter-spacing: -1px;
+}
 
 @media (max-height: 480px) {
   .tm-hero-text-container-inner {
@@ -590,6 +688,18 @@ footer{
   }
   #submenu{
       right: 0;
+  }
+  .leaf-img img{
+    width: 100%;
+  }
+  .water-img img{
+    width: 100%;
+  }
+  .water-img{
+    top: 0;
+  }
+  .sec07-img img{
+    width: 100%;
   }
 }
 
