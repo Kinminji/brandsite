@@ -280,6 +280,11 @@ a:focus {
     width: 100%;
     z-index: -1;
 }
+.btn1{
+  background-color: #698522;
+  border: none;
+  outline: none;
+}
 .section02{
     margin-top: 3%;
 }
