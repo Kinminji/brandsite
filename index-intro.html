@@ -75,7 +75,9 @@
                         <p>키워드 : 수분크림, 진정크림, 어린쑥, 크림, 순한크림, 민감피부, 수분진정, 쑥크림</p>
                         <div class="button text-center">
                             <a href="index-map.html" class="left">오프라인 매장 안내</a>
-                            <a href="index-map.html" class="left">구매하기</a>
+                            <button type="button" class="btn2 btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                            구매하기
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -85,6 +87,26 @@
             </div>
         </div>
     </section>
+
+      <!-- 모달 영역 -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <h4 class="modal-title" id="myModalLabel">모달 타이틀</h4>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body">
+      내용
+      </div>
+      <div class="modal-footer">
+      <button type="button" class="btn btn-primary">확인</button>
+      <button type="button" class="btn btn-default" data-dismiss="modal">취소</button>
+      </div>
+      </div>
+      </div>
+      </div>
+    
     
     <section>
         <div class="container section02">
@@ -219,6 +241,7 @@
     <script src="js/jquery.singlePageNav.min.js"></script>     
     <script src="js/bootstrap.min.js"></script> 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/map.js"></script>
     <script>
 
       function getOffSet(){

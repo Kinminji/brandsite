@@ -290,6 +290,46 @@ a:focus {
     background-size: cover;
     height: 500px;
 }
+.button>button{
+  outline: none;
+  border: 2px solid #ccc;
+  background: none;
+  color: #777;
+  border-radius: 0;
+  padding: 2% 14%;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.button > button:after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  background: #698522;
+}
+.button > button:hover {
+  color: #fff;
+  font-weight: bold;
+}
+.button > button:hover:after {
+  width: 100%;
+  z-index: -1;
+}
+.button>button{
+  font-size: 18px;
+}
 .sec02-txt{
     padding-top: 3%;
 }
@@ -734,3 +774,5 @@ a{
   visibility: visible;
   transition: 0.8s;
 }
+
+
